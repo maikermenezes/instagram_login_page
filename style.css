@@ -44,13 +44,14 @@ body{
 
 .group{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: white;
-    width:100%;
+    width:80%;
     padding: 1.3rem 0;
     border: 1px solid lightgrey;
+    margin-right: 20%;
 }
 
 .group:nth-child(1){
@@ -60,3 +61,62 @@ body{
 .logo{
  height: 3.5rem;
 }
+
+.foto{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+ .foto img{
+     height: 6rem;
+ }
+
+.insta-login{
+    background-color: #0095f6;
+    color: white;
+    padding:8px;
+    border-radius: 4px;
+    margin-top: 1.3rem;
+}
+.insta-logout{
+    color: #0095f6;
+    margin-top: 1rem;
+}
+.not-account{
+    color: rgb(160,160,160);
+}
+.link-azul{
+    color: #0095f6;
+}
+.get-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+    margin-right: 10%;
+}
+.download{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-download{
+    height: 3rem;
+    width: 10rem;
+    background-color: cover;
+}
+
+.app-download:nth-child(1){
+    background-image: url("./img/apple.png");
+}
+
+/*.app-download:nth-child(2){
+background-image: url("./img/gplay.png");
+}*/
