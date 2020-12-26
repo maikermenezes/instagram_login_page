@@ -6,7 +6,6 @@
     font-family: sans-serif;
     font-size: 14px;
 }
-
 body{
     width:100%;
     min-height: 100vh;
@@ -16,7 +15,6 @@ body{
     display: flex;
     justify-content: center; 
 }
-
 .instagram-wrapper{
     display: flex;
     align-items: center;
@@ -41,7 +39,6 @@ body{
     width: 50%;
     min-height: 34rem;
 }
-
 .group{
     display: flex;
     justify-content: center;
@@ -54,15 +51,12 @@ body{
     margin-right: 20%;
     margin-top: 1rem;
 }
-
 .group:nth-child(1){
     min-height:19rem;
 }
-
 .logo{
  height: 3.5rem;
 }
-
 .foto{
     display:flex;
     justify-content: center;
@@ -108,7 +102,6 @@ body{
     padding: 1rem;
     margin-right: 10%;
 }
-
 .app-download{
     height: 3rem;
     width: 10rem;
@@ -118,17 +111,14 @@ body{
 .app-download:nth-child(1){
     background-image: url("./img/apple.png");
 }
-
 .app-download:nth-child(2){
 background-image: url("./img/gplay.png");
 }
-
 @media (max-width:1200px){
     .instagram-wrapper{
      width:90%;
     }
 }
-
 @media (max-width: 800px){
     .instagram-wrapper{
         width:90%;
