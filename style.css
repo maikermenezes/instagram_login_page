@@ -66,8 +66,7 @@ body{
 }
  .foto img{
      height: 6rem;
- }
-
+}
 .insta-login{
     background-color: #0095f6;
     color: white;
@@ -107,7 +106,6 @@ body{
     width: 10rem;
     background-color: cover;
 }
-
 .app-download:nth-child(1){
     background-image: url("./img/apple.png");
 }
